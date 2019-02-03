@@ -6,11 +6,9 @@ pipeline{
           options{
             skipDefaultCheckout()
           }
-
           steps{
             echo "Hello...!"
           }
-
       }
     }
 }
